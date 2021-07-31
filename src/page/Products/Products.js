@@ -4,7 +4,7 @@ import React from 'react'
 const Products = () => {
     return (
         <div>
-            Pagina de Produtos
+            Products
         </div>
     )
 }

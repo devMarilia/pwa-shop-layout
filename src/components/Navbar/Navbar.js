@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { Container } from './NavbarElement'
 
 const Navbar = () => {
@@ -15,17 +15,17 @@ const Navbar = () => {
 
                <nav>
             
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/product">Product</Link>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/products">Product</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
 
             <div className="dropdown">
               <span>Calcinhas</span>
               <div className="dropdown-content">
-                <Link to="">Tradicional</Link>
-                <Link to="">Fio duplo</Link>
-                <Link to="">Renda</Link>
+                <NavLink to="">Tradicional</NavLink>
+                <NavLink to="">Fio duplo</NavLink>
+                <NavLink to="">Renda</NavLink>
               </div>
             </div>
           </nav>

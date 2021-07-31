@@ -1,22 +1,25 @@
 import React from 'react'
-import { BrowserRouter as Router} from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar'
+import history from "../src/Services/history";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import MainRoutes from './routes';
 import GlobalStyles from './styles/GlobalStyles';
 import Typography from './styles/Typography';
 
 
 
 
-const App = () => {
+function App() {
   return (
     <>
-    <GlobalStyles />
-    <Typography />
-     <Router>
-       <Navbar/>
-     </Router>
-    </>
-     
+   
+      <Router history={history}>
+        <GlobalStyles/>
+        <Typography/> 
+        <MainRoutes />
+      </Router>
+
+      </>
   )
 }
 
