@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
   :root{
     --pink: #F6B5CC;
     --light-pink: #EBBDB7;
-    --puce: ##EA7A86;
+    --puce: #EA7A86;
     --white: #FFF;
     --white : white;
     --black: black;
