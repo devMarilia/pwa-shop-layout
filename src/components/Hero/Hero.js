@@ -4,7 +4,7 @@ import {
     Content
   } from './HeroElements';
 
-import Banner from "../../assets/image/banner.jpg"
+import Banner from '../../assets/Imgs/banner.jpg'
 
 const Hero = () => {
  return (
@@ -17,7 +17,7 @@ const Hero = () => {
        </section>
 
        <section className="section-img">
-         <img src={Banner}/> 
+         <img src={Banner} alt="lorem"/> 
        </section>
      </Content>
    </Container>
